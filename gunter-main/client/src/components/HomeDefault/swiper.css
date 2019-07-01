@@ -1,0 +1,62 @@
+.swiper-slide {
+    width: 100%;
+	float: left;
+	clear: both;
+    position: relative;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.swiper-slide::after {
+    content: '';
+	position: absolute;
+	z-index: 55;
+	right: 0px;
+	width: 2px;
+	top: 0px;
+	bottom: 0px;
+    background-color: #111724;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.img-holder {
+    position: relative;
+    z-index: 1;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.img-holder::after {
+    position: absolute;
+	z-index: 10;
+	content: '';
+	left: 0px;
+	top: 0px;
+	right: 100%;
+	bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    transition: top 1.3s, right 1.3s, bottom 1.3s, left 1.3s;
+	
+}
+  
+  .swipers-slide:hover .img-holder {
+    opacity: 0.5;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    background-color: rgba(0,0,0,0.6);
+  }
+.img-holder img {
+    position: relative;
+    z-index: -5;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+	opacity: 0;
+}
+  .main-img {
+      background-image: url("../../assets/images/IMG_0565.JPG");
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+  }

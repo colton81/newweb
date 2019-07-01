@@ -1,0 +1,66 @@
+Title: Gunter + React — Digital Agency Template
+
+Demo URL: https://gunter-react.herokuapp.com/
+
+Description:
+
+<h2>Main Features:</h2>
+<ul type="square">
+	<li>ES6+</li>
+	<li>React JS 16.8+</li>
+	<li>React Router Dom 5.0.0</li>
+	<li>Express JS</li>
+	<li>Nodemailer</li>
+	<li>SendGrid Mail</li>
+	<li>Uikit 3.0+</li>
+	<li>Simple client-side routing (page based)</li>
+	<li>React Lax.js</li>
+	<li>Easy Customization</li>
+	<li>React Modal Video</li>
+</ul>
+
+<h2>24-Hour Turnaround Support:</h2>
+<ul>
+	<li>Quick, Dedicated & Professional Support</li>
+	<li>Please send us email to hello@envytheme.com with your details query. Thanks!</li>
+</ul>
+
+<h2>What do you get?</h2>
+
+<ul type="square">
+	<li>Template source code</li>
+	<li>Documentation</li>
+</ul>
+
+<h2>Important Note:</h2>
+
+<ul type="square">
+    <li>Images are only for demo purpose and not included in the download bundle.</li>
+</ul>
+
+<h2>Tags:</h2>
+
+ 	react.js, express.js, uikit, creative, node.js, technology, web app, clean, responsive, html  
+
+<h2>Sources and Credits:</h2>
+<ul type="square">
+	<li>ReactJS</li>
+	<li>ReactDom</li>
+	<li>React Router Dom</li>
+	<li>Express JS</li>
+	<li>Uikit</li>
+	<li>Nodemailer</li>
+	<li>ES6-Promise</li>
+	<li>isomorphic-fetch</li>
+	<li>React Modal Video</li>
+	<li>Google Fonts</li>
+	<li>SendGrid</li>
+	<li>React Scripts</li>
+	<li>React Collapsible</li>
+	<li>FlatIcon</li>
+	<li>Concurrently</li>
+	<li>React Owl Carousel3</li>
+	<li>Node Sass</li>
+	<li>Lax.js</li>
+</ul>
+
