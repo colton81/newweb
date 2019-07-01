@@ -41,19 +41,11 @@ class App extends React.Component {
         if (window.location.pathname === '/home-three'){
             return <NavigationThree />
         }
-
-        return <MaterialNav color="transparent"
-        routes={dashboardRoutes}
-        brand="Material Kit React"
-        rightLinks={<HeaderLinks/>}
-        fixed
-        changeColorOnScroll={{
-          height: 400,
-          color: "dark"
-        }}
-        {...rest}
-         />
+        else {
+        return <DefaultNavigation />
+         
     }
+}
     render() {
         
         return (

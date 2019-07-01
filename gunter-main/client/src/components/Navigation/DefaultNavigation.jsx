@@ -6,7 +6,7 @@ import '../../assets/css/animate.min.css';
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo2.png';
+import logo from '../../assets/images/Logo_100.svg';
  
 class Navigation extends React.Component {
     render(){
@@ -41,41 +41,12 @@ class Navigation extends React.Component {
                                         offset={() => 100} 
                                         href="#services"
                                     >
-                                        Services
+                                        Projects
                                     </AnchorLink>
                                 </li>
-                                <li>
-                                    <AnchorLink 
-                                        offset={() => 100} 
-                                        href="#project"
-                                    >
-                                        Project
-                                    </AnchorLink>
-                                </li>
-                                <li>
-                                    <AnchorLink 
-                                        offset={() => 100} 
-                                        href="#clients"
-                                    >
-                                        Clients
-                                    </AnchorLink>
-                                </li>
-                                <li>
-                                    <AnchorLink 
-                                        offset={() => 100} 
-                                        href="#team"
-                                    >
-                                        Team
-                                    </AnchorLink>
-                                </li>
-                                <li>
-                                    <AnchorLink 
-                                        offset={() => 100} 
-                                        href="#blog"
-                                    >
-                                        Blog
-                                    </AnchorLink>
-                                </li>
+                                
+                                
+                                
                                 <li>
                                     <AnchorLink 
                                         offset={() => 100} 
@@ -133,35 +104,13 @@ class Navigation extends React.Component {
                                                 href="#services"
                                                 offset={() => 100}
                                             >
-                                                Services
+                                                Projects
                                             </AnchorLink>
                                         </li>
-                                        <li>
-                                            <AnchorLink 
-                                                href="#project"
-                                                offset={() => 100}
-                                            >
-                                                Project
-                                            </AnchorLink>
-                                        </li>
-                                        <li>
-                                            <AnchorLink 
-                                                href="#clients"
-                                                offset={() => 100}
-                                            >
-                                                Clients
-                                            </AnchorLink>
-                                        </li>
-                                        <li>
-                                            <AnchorLink 
-                                            href="#team"
-                                            offset={() => 100}>Team</AnchorLink>
-                                        </li>
-                                        <li>
-                                            <AnchorLink 
-                                            href="#blog"
-                                            offset={() => 100}>Blog</AnchorLink>
-                                        </li>
+                                        
+                                        
+                                        
+                                
                                         <li>
                                             <AnchorLink 
                                             href="#contact"

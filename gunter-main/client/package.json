@@ -20,12 +20,12 @@
     "react-owl-carousel3": "^2.2.5",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "react-typed": "^1.1.2",
     "swiper": "^4.5.0",
+    "typewriter-effect": "^2.8.2",
     "uikit": "^3.0.3"
   },
   "engines": {
-    "node": "10.16.0",
+    "node": "12.3.1",
     "npm": "5.6.0"
   },
   "scripts": {

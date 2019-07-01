@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel3';
-import project1 from '../../assets/images/project1.jpg';
-import project2 from '../../assets/images/project2.jpg';
-import project3 from '../../assets/images/project3.jpg';
+import project1 from '../../assets/images/IMG_0548.JPG';
+import project2 from '../../assets/images/IMG_0548.JPG';
+import project3 from '../../assets/images/IMG_0548.JPG';
 
 const options = {
     loop: true,
@@ -35,7 +35,7 @@ class Project extends React.Component {
             <section id="project" className="project-area uk-dark uk-project uk-section">
                 <div className="uk-container">
                     <div className="uk-section-title section-title">
-                        <span>Our Completed Projects</span>
+                        <span>Projects</span>
                         <h2>Recent Projects</h2>
                         <div className="bar"></div>
 
@@ -53,10 +53,10 @@ class Project extends React.Component {
                         </Link>
 
                         <div className="project-content">
-                            <h3><Link to="#">Development</Link></h3>
+                            <h3><Link to="#">Filter</Link></h3>
                             <ul>
-                                <li><Link to="#">Web</Link></li>
-                                <li><Link to="#">Mobile</Link></li>
+                                <li><Link to="#"></Link></li>
+                                <li><Link to="#"></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -67,10 +67,10 @@ class Project extends React.Component {
                         </Link>
 
                         <div className="project-content">
-                            <h3><Link to="#">Architecture</Link></h3>
+                            <h3><Link to="#">Filter</Link></h3>
                             <ul>
-                                <li><Link to="#">Home</Link></li>
-                                <li><Link to="#">Bridge</Link></li>
+                                <li><Link to="#"></Link></li>
+                                <li><Link to="#"></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -81,10 +81,10 @@ class Project extends React.Component {
                         </Link>
 
                         <div className="project-content">
-                            <h3><Link to="#">UX/UI Design</Link></h3>
+                            <h3><Link to="#">Filter</Link></h3>
                             <ul>
-                                <li><Link to="#">Web</Link></li>
-                                <li><Link to="#">Mobile</Link></li>
+                                <li><Link to="#"></Link></li>
+                                <li><Link to="#"></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -95,10 +95,10 @@ class Project extends React.Component {
                         </Link>
 
                         <div className="project-content">
-                            <h3><Link to="#">Development</Link></h3>
+                            <h3><Link to="#">Filter</Link></h3>
                             <ul>
-                                <li><Link to="#">Web</Link></li>
-                                <li><Link to="#">Mobile</Link></li>
+                                <li><Link to="#"></Link></li>
+                                <li><Link to="#"></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -109,10 +109,10 @@ class Project extends React.Component {
                         </Link>
 
                         <div className="project-content">
-                            <h3><Link to="#">UX/UI Design</Link></h3>
+                            <h3><Link to="#">Filter</Link></h3>
                             <ul>
-                                <li><Link to="#">Web</Link></li>
-                                <li><Link to="#">Mobile</Link></li>
+                                <li><Link to="#"></Link></li>
+                                <li><Link to="#"></Link></li>
                             </ul>
                         </div>
                     </div>

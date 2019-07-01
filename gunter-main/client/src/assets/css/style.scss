@@ -538,7 +538,7 @@ Main Banner CSS
     position: relative;
     z-index: 1;
 }
-.item-bg1 {
+/* .item-bg1 {
     background-image: url('../images/man1.png');
 }
 .item-bg2 {
@@ -546,7 +546,7 @@ Main Banner CSS
 }
 .item-bg3 {
     background-image: url('../images/main-women.png');
-}
+} */
 .main-banner-content {
     max-width: 560px;
   
@@ -793,6 +793,7 @@ About CSS
 .about-area {
     position: relative;
     overflow: hidden;
+    height: 55rem;
 }
 .about-content {
     .section-title {
@@ -832,12 +833,20 @@ About CSS
         transition: $transition;
     }
     .about-img1 {
-        width: 75%;
+        width: 85% !important;
+        margin-right: 10px;
+        filter: blur(2px);
+    }
+    .about-img3 {
+        width: 65% !important;
+        margin-right: -13rem;
+        filter: blur(2px);
     }
     .about-img2 {
         position: absolute;
-        left: 70px;
-        bottom: -82px;
+        left: 0px !important;
+        bottom: 0px;
+        width: 85%;
     }
     .shape-img {
         position: absolute;
@@ -858,7 +867,7 @@ About CSS
     }
     &:hover, &:focus {
         img {
-            filter: grayscale(100%);
+            filter: grayscale(0%);
         }
     }
 }
@@ -1185,7 +1194,7 @@ Project CSS
         }
         .project-img {
             img {
-                filter: grayscale(100%);
+                filter: grayscale(0%);
             }
         }
     }
@@ -1400,7 +1409,7 @@ Feedback CSS
     }
     &:hover, &:focus {
         img {
-            filter: grayscale(100%);
+            filter: grayscale(0%);
         }
     }
 }
@@ -1627,7 +1636,7 @@ Team CSS
         }
         img {
             top: 70px;
-            filter: grayscale(100%);
+            filter: grayscale(0%);
         }
     }
 }
@@ -1775,7 +1784,7 @@ Blog CSS
     &:hover, &:focus {
         .blog-post-image {
             img {
-                filter: grayscale(100%);
+                filter: grayscale(0%);
             }
         }
         .blog-post-content {
@@ -3051,7 +3060,7 @@ Dark Home CSS
 
     .about-img {
         img {
-            filter: grayscale(100%);
+            filter: grayscale(0%);
             transition: $transition;
         }
         .shape-img {

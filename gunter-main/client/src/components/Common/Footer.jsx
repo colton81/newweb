@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo2.png';
+import logo from '../../assets/images/Logo_522.svg';
 import footerShapeOne from '../../assets/images/footer-shape1.png';
 import footerShapeTwo from '../../assets/images/footer-shape2.png';
 import GoTop from './GoTop';
@@ -23,24 +23,15 @@ class Footer extends React.Component {
                             </div>
                         </div>
 
-                        <div className="item">
-                            <div className="single-footer-widget">
-                                <h3>New York</h3>
-                                <div className="bar"></div>
-
-                                <div className="location">
-                                    <p>198 Collective Street <br /> Manhattan <br /> Kingston <br /> United State</p>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                         <div className="item">
                             <div className="single-footer-widget">
-                                <h3>London</h3>
+                                <h3>Houston</h3>
                                 <div className="bar"></div>
 
                                 <div className="location">
-                                    <p>352/71 Second Street <br /> King Street <br /> Kingston <br /> United Kingdom</p>
+                                    <p>7400 Apache St.<br />Houston, TX 77028<br /> United States</p>
                                 </div>
                             </div>
                         </div>
@@ -51,9 +42,9 @@ class Footer extends React.Component {
                                 <div className="bar"></div>
 
                                 <ul className="contact-info">
-                                    <li><Link to="#">info@gunter.com</Link></li>
-                                    <li><Link to="#">fax@gunter.com</Link></li>
-                                    <li><Link to="#">+44 478 541 7452</Link></li>
+                                    <li><Link to="#">info@houstonprocessanddesign.com</Link></li>
+                                    <li><Link to="#">fax@houstonprocessanddesign.com</Link></li>
+                                    <li><Link to="#">281-741-9439</Link></li>
                                 </ul>
                                 <ul className="social">
                                     <li><Link to="#"><i className="flaticon-logo"></i></Link></li>
@@ -68,7 +59,7 @@ class Footer extends React.Component {
                     <div className="copyright-area">
                         <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s">
                             <div className="item">
-                                <p>© EnvyTheme. All Rights Reserved, 2019</p>
+                                <p>© HoustonProcessandDesign. All Rights Reserved, 2019</p>
                             </div>
 
                             <div className="item">

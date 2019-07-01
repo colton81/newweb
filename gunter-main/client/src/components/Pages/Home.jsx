@@ -35,16 +35,16 @@ class Home extends React.Component {
                 <Project />
                 {/* Vertical line */}
                 <SeperatedBar />
-                {/* Feedback Area */}
-                <Testimonials />
-                {/* Partner Area */}
-                <PartnerLogo />
-                {/* Team Area */}
-                <Team />
-                {/* Subscribe Area */}
-                <Newsletter />
-                {/* Blog Area */}
-                <LatestNews />
+                {/* Feedback Area 
+                <Testimonials /> */}
+                {/* Partner Area 
+                <PartnerLogo /> */}
+                {/* Team Area 
+                <Team /> */}
+                {/* Subscribe Area 
+                <Newsletter /> */}
+                {/* Blog Area 
+                <LatestNews /> */}
                 {/* Vertical line */}
                 <SeperatedBar />
                 {/* Contact Area */}

@@ -28,21 +28,21 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <Button
           href=""
-          color="white"
+          color="primary"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> HOME
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
           href=""
-          color="white"
+          color="primary"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> ABOUT US
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

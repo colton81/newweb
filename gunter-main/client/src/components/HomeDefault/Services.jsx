@@ -1,9 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Swiper from "react-id-swiper";
-import ImgHolder from '../../assets/images/thumb-480-700.jpg'
-import './swiper.css';
+import ImgHolder from "../../assets/images/thumb-480-700.jpg";
+import Image1 from "../../assets/images/IMG_0544.jpeg";
+import "./swiper.css";
 
+import OwlCarousel from "react-owl-carousel3";
+import job911 from "../../assets/images/job911.jpeg";
+import "../slideshow/slideshow.css";
+import arrow from "../../assets/images/svg/arrow-r.svg";
+import "../slideshow/global.css";
+import "../slideshow/style.css";
 
 class Services extends React.Component {
   render() {
@@ -22,186 +29,204 @@ class Services extends React.Component {
         prevEl: ".swiper-button-prev"
       }
     };
-  
+
     return (
       <section
-        id="services"
-        className="services-area uk-dark uk-services uk-section"
+        className="elementor-element elementor-element-3a709187 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+        data-id="3a709187"
+        data-element_type="section"
       >
-        <Swiper {...params}>
-          <div className="swipers-slide">
-              <div className="img-holder">
-              <img src={ImgHolder} alt=""/>
-              <div className="main-img">
-              
+        <div className="elementor-container elementor-column-gap-default">
+          <div className="elementor-row">
+            <div
+              className="elementor-element elementor-element-545ad043 elementor-column elementor-col-100 elementor-top-column"
+              data-id="545ad043"
+              data-element_type="column"
+            >
+              <div className="elementor-column-wrap  elementor-element-populated">
+                <div className="elementor-widget-wrap">
+                  <div
+                    className="elementor-element elementor-element-46bde991 elementor-widget elementor-widget-frel-service-query"
+                    data-id="46bde991"
+                    data-element_type="widget"
+                    data-widget_type="frel-service-query.default"
+                  >
+                    <div className="elementor-widget-container">
+                      <div className="cons_w_wrapper">
+                        <div
+                          className="fn_cs_service_query"
+                          data-column-count="3"
+                        >
+                          <div className="top_bar">
+                            <div className="t_inner">
+                              <h3>Our Projects</h3>
+                              <span />
+                              <div className="owl_control">
+                                <div className="fn_prev" />
+                                <div className="fn_next" />
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="service_part">
+                            <OwlCarousel
+                              className="owl-carousel"
+                              loop
+                              margin={1}
+                              
+                            >
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div
+                                    className="abs_img"
+                                    data-bg-img={job911}
+                                    style={{
+                                      background_image:
+                                        "url(../../assets/images/job911.jpeg)"
+                                    }}
+                                  >
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div class="title">
+                                  <h3>
+                                    <a href="http://industify.frenify.com/1/myservice/aerospace-and-defense/">
+                                      Filter Housings
+                                    </a>
+                                  </h3>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job911}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div class="title">
+                                  <h3>
+                                    <a href="http://industify.frenify.com/1/myservice/aerospace-and-defense/">
+                                      Custom Vessels
+                                    </a>
+                                  </h3>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job911}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job911}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job911}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job911}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="myservice/aerospace-and-defense/">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </OwlCarousel>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              </div>
-              
+            </div>
           </div>
-          <div className="swipers-slide">
-              <div className="img-holder">
-              <img src={ImgHolder} alt=""/>
-              <div className="main-img">
-              
-              </div>
-              </div>
-              
-          </div>
-          <div className="swipers-slide">
-              <div className="img-holder">
-              <img src={ImgHolder} alt=""/>
-              <div className="main-img">
-              
-              </div>
-              </div>
-              
-          </div>
-          <div className="swipers-slide">
-              <div className="img-holder">
-              <img src={ImgHolder} alt=""/>
-              <div className="main-img">
-              
-              </div>
-              </div>
-              
-          </div>
-          <div className="swipers-slide">
-              <div className="img-holder">
-              <img src={ImgHolder} alt=""/>
-              <div className="main-img">
-              
-              </div>
-              </div>
-              
-          </div>
-        </Swiper>
-
-       {/*  <div className="uk-container">
-          <div className="uk-section-title section-title">
-            <span>What We Do</span>
-            <h2>Our Services</h2>
-            <div className="bar" />
-          </div>
-
-          <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s">
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-plan" />
-                </div>
-                <h3>Digital Branding</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-think" />
-                </div>
-                <h3>Creative Solutions</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-shout" />
-                </div>
-                <h3>Marketing Solutions</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-analytics-1" />
-                </div>
-                <h3>Business Analytics</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services active">
-                <div className="icon">
-                  <i className="flaticon-ux-design" />
-                </div>
-                <h3>UX & UI Design</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-camera" />
-                </div>
-                <h3>Photography</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-project" />
-                </div>
-                <h3>Management</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-chat" />
-                </div>
-                <h3>Social Media</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="single-services">
-                <div className="icon">
-                  <i className="flaticon-data" />
-                </div>
-                <h3>Data Science</h3>
-
-                <i className="flaticon-right link-btn" />
-
-                <Link to="#" className="link uk-position-cover" />
-              </div>
-            </div>
-          </div>
-        </div> */}
+        </div>
       </section>
     );
   }

@@ -1,8 +1,10 @@
 import React from 'react';
 import lax from 'lax.js';
-import signature from '../../assets/images/signature.png';
-import about1 from '../../assets/images/about1.jpg';
+import signature from '../../assets/images/Logo_150.svg';
+import about1 from '../../assets/images/pipe1.png';
 import about2 from '../../assets/images/galleryimage.png';
+import about3 from '../../assets/images/pipe2.png';
+import border from '../../assets/images/border.png';
 import one from '../../assets/images/1.png';
 import LaxButton from '../Common/LaxButton';
 import Parallax from 'parallax-js';
@@ -47,7 +49,7 @@ class About extends React.Component {
                                     <div className="icon">
                                         <i className="flaticon-quality"></i>
                                     </div>
-                                    <h3>Best Digital Agency in the World</h3>
+                                    <h3></h3>
                                     <p> Houston Process and Design is a pioneer in
                                       the design and fabrication of heavy duty ASME
                                       and API code certified industrial pressure
@@ -69,10 +71,16 @@ class About extends React.Component {
                         <div className="item">
                             <div ref={el => this.scene = el} className="about-img">
                                 
-                                <div data-depth="0.3" className="about-img1" >
+                                <div data-depth="0.6" className="about-img3" >
+                                <img src={about3} alt="about-img" />
+                                </div>
+                                <div data-depth="0.7" className="about-img1" >
                                 <img src={about1}  alt="about-img" />
                                 </div>
-                                <div data-depth="0.9" className="about-img2" >
+                                <div data-depth=".9" className="about-img2" >
+                                <img src={border}  alt="about-img" />
+                                </div>
+                                <div data-depth="1.0" className="about-img2" >
                                 <img src={about2}  alt="about-img" />
                                 </div>
                                 

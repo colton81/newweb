@@ -81,7 +81,7 @@ class Contact extends React.Component {
                 <div className="alert-success" uk-alert-success>
                     <Link to="#" onClick={this.onHideSuccess} className="uk-alert-close" uk-close="true"></Link>
                     <h3>Thank you</h3>
-                    <p>We will connect you soon.</p>
+                    <p>We will contact you shortly.</p>
                 </div>
             );
         }
@@ -94,7 +94,7 @@ class Contact extends React.Component {
                 <div className="uk-container">
                     <div className="uk-section-title section-title">
                         <span>Let's Talk</span>
-                        <h2>Get in Touch</h2>
+                        <h2>Request A Quote</h2>
                     </div>
 
                     <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-child-width-1-1@s">
@@ -105,20 +105,13 @@ class Contact extends React.Component {
                                 <div className="location uk-location1">
                                     <Link to="#" className="active">
                                         <div className="location-info">
-                                            <h5>New York</h5>
-                                            <span>198 Collective Street</span>
+                                            <h5>Houston, TX</h5>
+                                            <span>7400 Apache St.</span>
                                         </div>
                                     </Link>
                                 </div>
 
-                                <div className="location uk-location2">
-                                    <Link to="#">
-                                        <div className="location-info">
-                                            <h5>London</h5>
-                                            <span>357/71 Collective Street</span>
-                                        </div>
-                                    </Link>
-                                </div>
+                                
                             </div>
                         </div>
 

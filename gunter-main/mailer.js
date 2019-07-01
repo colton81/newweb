@@ -21,7 +21,7 @@ const send = ({ name, email, phone, subject, text }) => {
 
     const message = {
         from,
-        to: 'shabbir@salahsoftwaresolution.com',
+        to: 'chillebrand@houstonprocessanddesign.com',
         subject: subject,
         text: textBody,
         replyTo: from
