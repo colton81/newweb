@@ -19,7 +19,7 @@ class Footer extends React.Component {
                                     </Link>
                                 </div>
 
-                                <p>Lorem ipsum dolor consectetur adipiscing elit, eiusmod tempor ut labore et dolore magna aliqua.</p>
+                                <p></p>
                             </div>
                         </div>
 

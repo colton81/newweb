@@ -1,0 +1,80 @@
+@media(max-width: 1300px) {
+    .img-class {
+        
+        top: -22rem;
+    }
+ .main-banner-content {
+     width: 70% !important;
+     margin: 0 !important;
+     padding-bottom: 15%;
+     font-size: 12px !important;
+ }
+}
+
+@media(max-width: 1100px) {
+.img-class {
+    top: -28rem !important;
+}
+.main-banner-content {
+     width: 70% !important;
+     margin: 0 !important;
+     padding-bottom: 30%;
+     font-size: 12px !important;
+ }
+.main-banner-content h1 {
+    font-size: 40px !important;
+    line-height: 43px;
+    
+}
+.main-banner-content h3 div h2 {
+    font-size: 30px !important;
+    line-height: 0.5 !important;
+    font-weight: 400 !important;
+}
+
+}
+
+@media(max-width: 900px) {
+.img-class {
+    top: -28rem !important;
+}
+.main-banner-content {
+    position: relative;
+     width: 70% !important;
+     margin: 0 !important;
+    top: -5rem !important;
+     padding-bottom: 30%;
+     font-size: 12px !important;
+ }
+.main-banner-content h1 {
+    font-size: 38px !important;
+    line-height: 35px;
+    
+}
+.main-banner-content h3 div h2 {
+    font-size: 25px !important;
+    line-height: 0.5 !important;
+    font-weight: 400 !important;
+}
+.about-area .item {
+    width: 50% !important;
+}
+.about-area {
+    height: 34rem !important;
+}
+
+.fn_cs_service_query .top_bar {
+    height: 15rem
+}
+.uk-features {
+    height: 45rem
+}
+.uk-features .uk-container {
+    position: relative;
+    top: -15rem;
+    
+    padding-bottom: 0px !important;
+}
+
+}
+

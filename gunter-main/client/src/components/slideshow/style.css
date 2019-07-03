@@ -952,9 +952,25 @@
         }
     }
 
+   
+
     .abs_img {
         background-image: url("../../assets/images/job911.jpeg");
 
     }
-    
+    .abs_img2 {
+        background-image: url("../../assets/images/IMG_0984.JPG");
+        background-size: contain;
+
+    }
+    .abs_img3 {
+        background-image: url("../../assets/images/IMG_0565.JPG");
+        background-size: cover;
+        background-repeat: no-repeat
+
+    }
+    .abs_img4 {
+        background-image: url("../../assets/images/IMG_0548.JPG");
+
+    }
     

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel3';
 import Collapsible from 'react-collapsible';
-import blogImage from '../../assets/images/blog-details.jpg';
+import blogImage from '../../assets/images/port-authur.jpg';
 import Footer from '../Common/Footer';
 
 const options = {

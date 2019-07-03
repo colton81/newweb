@@ -55,7 +55,7 @@ export default class Section4 extends Component {
                                   />
                                   <div
                                     className="abs_img"
-                                    data-bg-img={job911}
+                                    data-bg-img={job1}
                                   >
                                     <a href="#" />
                                   </div>

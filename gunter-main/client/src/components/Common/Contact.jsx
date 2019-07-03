@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'isomorphic-fetch';
 import mapImg from '../../assets/images/map2.png';
+import GoogleApiWrapper from '../HomeDefault/Maps'
  
 class Contact extends React.Component {
     state = {
@@ -100,16 +101,10 @@ class Contact extends React.Component {
                     <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-child-width-1-1@s">
                         <div className="item">
                             <div className="map-img">
-                                <img src={mapImg} alt="map" />
+                                
+                                <GoogleApiWrapper />
 
-                                <div className="location uk-location1">
-                                    <Link to="#" className="active">
-                                        <div className="location-info">
-                                            <h5>Houston, TX</h5>
-                                            <span>7400 Apache St.</span>
-                                        </div>
-                                    </Link>
-                                </div>
+                                
 
                                 
                             </div>

@@ -24,18 +24,36 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Gunter + React — Digital Agency Template</title>
+    <title>Houston Process and Design</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="./css/responsive.css">
+    
   </head>
   <body>
+      
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    
+   
     <div id="root">
-
+      <div id="typewriter"></div>
+       
       
     </div>
-    
+    <script src='../../dist/core.js'></script>
+  <script type='text/javascript'>
+    const typewriter = new Typewriter('#typewriter', {
+      loop: true,
+    });
+
+    typewriter.typeString('Hello World!')
+        .pauseFor(2500)
+        .deleteAll()
+        .pauseFor(500)
+        .changeCursor('$')
+        .typeString('This is a new cursor')
+        .pauseFor(2500)
+        .start();
+  </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -47,4 +65,5 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  
 </html>

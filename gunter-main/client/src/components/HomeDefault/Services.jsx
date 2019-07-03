@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import Swiper from "react-id-swiper";
 import ImgHolder from "../../assets/images/thumb-480-700.jpg";
 import Image1 from "../../assets/images/IMG_0544.jpeg";
-import "./swiper.css";
+
 
 import OwlCarousel from "react-owl-carousel3";
 import job911 from "../../assets/images/job911.jpeg";
-import "../slideshow/slideshow.css";
+import job1 from "../../assets/images/IMG_0518.JPG";
+
 import arrow from "../../assets/images/svg/arrow-r.svg";
-import "../slideshow/global.css";
+
 import "../slideshow/style.css";
 
 class Services extends React.Component {
@@ -59,7 +60,7 @@ class Services extends React.Component {
                         >
                           <div className="top_bar">
                             <div className="t_inner">
-                              <h3>Our Projects</h3>
+                              <h3>Our Capabilities</h3>
                               <span />
                               <div className="owl_control">
                                 <div className="fn_prev" />
@@ -81,23 +82,20 @@ class Services extends React.Component {
                                   <div
                                     className="abs_img"
                                     data-bg-img={job911}
-                                    style={{
-                                      background_image:
-                                        "url(../../assets/images/job911.jpeg)"
-                                    }}
+                                    
                                   >
                                     <a href="#" />
                                   </div>
                                 </div>
                                 <div class="title">
                                   <h3>
-                                    <a href="http://industify.frenify.com/1/myservice/aerospace-and-defense/">
+                                    <a href="">
                                       Filter Housings
                                     </a>
                                   </h3>
                                 </div>
                                 <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
+                                  <a href="#">
                                     <span className="text">View More</span>
                                     <span className="arrow">
                                       <img
@@ -112,19 +110,86 @@ class Services extends React.Component {
                               <div className="item">
                                 <div className="img_holder">
                                   <img src={ImgHolder} alt="" />
-                                  <div className="abs_img" data-bg-img={job911}>
+                                  <div className="abs_img abs_img2" data-bg-img={job1}>
                                     <a href="#" />
                                   </div>
                                 </div>
                                 <div class="title">
                                   <h3>
-                                    <a href="http://industify.frenify.com/1/myservice/aerospace-and-defense/">
-                                      Custom Vessels
+                                    <a href="">
+                                      Process Skids
                                     </a>
                                   </h3>
                                 </div>
                                 <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
+                                  <a href="">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img abs_img3" data-bg-img={job1}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div class="title">
+                                  <h3>
+                                    <a href="">
+                                      In-House Machine Shop
+                                    </a>
+                                  </h3>
+                                </div>
+                                <div className="view_more">
+                                  <a href="#">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img abs_img4" data-bg-img={job1}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="#">
+                                    <span className="text">View More</span>
+                                    <span className="arrow">
+                                      <img
+                                        className="industify_w_fn_svg"
+                                        src={arrow}
+                                        alt="svg"
+                                      />
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="item">
+                                <div className="img_holder">
+                                  <img src={ImgHolder} alt="" />
+                                  <div className="abs_img" data-bg-img={job1}>
+                                    <a href="#" />
+                                  </div>
+                                </div>
+                                <div className="view_more">
+                                  <a href="#">
                                     <span className="text">View More</span>
                                     <span className="arrow">
                                       <img
@@ -144,67 +209,7 @@ class Services extends React.Component {
                                   </div>
                                 </div>
                                 <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
-                                    <span className="text">View More</span>
-                                    <span className="arrow">
-                                      <img
-                                        className="industify_w_fn_svg"
-                                        src={arrow}
-                                        alt="svg"
-                                      />
-                                    </span>
-                                  </a>
-                                </div>
-                              </div>
-                              <div className="item">
-                                <div className="img_holder">
-                                  <img src={ImgHolder} alt="" />
-                                  <div className="abs_img" data-bg-img={job911}>
-                                    <a href="#" />
-                                  </div>
-                                </div>
-                                <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
-                                    <span className="text">View More</span>
-                                    <span className="arrow">
-                                      <img
-                                        className="industify_w_fn_svg"
-                                        src={arrow}
-                                        alt="svg"
-                                      />
-                                    </span>
-                                  </a>
-                                </div>
-                              </div>
-                              <div className="item">
-                                <div className="img_holder">
-                                  <img src={ImgHolder} alt="" />
-                                  <div className="abs_img" data-bg-img={job911}>
-                                    <a href="#" />
-                                  </div>
-                                </div>
-                                <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
-                                    <span className="text">View More</span>
-                                    <span className="arrow">
-                                      <img
-                                        className="industify_w_fn_svg"
-                                        src={arrow}
-                                        alt="svg"
-                                      />
-                                    </span>
-                                  </a>
-                                </div>
-                              </div>
-                              <div className="item">
-                                <div className="img_holder">
-                                  <img src={ImgHolder} alt="" />
-                                  <div className="abs_img" data-bg-img={job911}>
-                                    <a href="#" />
-                                  </div>
-                                </div>
-                                <div className="view_more">
-                                  <a href="myservice/aerospace-and-defense/">
+                                  <a href="#">
                                     <span className="text">View More</span>
                                     <span className="arrow">
                                       <img

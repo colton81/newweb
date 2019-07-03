@@ -8,7 +8,7 @@ class Features extends React.Component {
         return (
             <section className="uk-features uk-dark features-area uk-section uk-padding-remove-top">
                 <div className="img-class">
-                <img src={Truck} style={{z_index: "-10", width: "100%", top: "-250px", display: "block"}} alt=""/>
+                <img src={Truck} style={{z_index: "-10", width: "100%", top: "-2rem !important", display: "block"}} alt=""/>
                 </div>
                 <div className="uk-container">
                     <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m">

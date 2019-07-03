@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel3';
 import project1 from '../../assets/images/IMG_0548.JPG';
-import project2 from '../../assets/images/IMG_0548.JPG';
+import project2 from '../../assets/images/IMG_0518.JPG';
 import project3 from '../../assets/images/IMG_0548.JPG';
 
 const options = {

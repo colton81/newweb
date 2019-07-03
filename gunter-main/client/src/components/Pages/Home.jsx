@@ -5,13 +5,14 @@ import SeperatedBar from '../Common/SeperatedBar';
 import About from '../HomeDefault/About';
 import Services from '../HomeDefault/Services';
 import Project from '../HomeDefault/Project';
-import Testimonials from '../HomeDefault/Testimonials';
-import PartnerLogo from '../HomeDefault/PartnerLogo';
-import Team from '../HomeDefault/Team';
-import Newsletter from '../HomeDefault/Newsletter';
-import LatestNews from '../HomeDefault/LatestNews';
+
+
+
+
+import Facebook from '../Common/Facebook'
 import Contact from '../Common/Contact';
 import Footer from '../Common/Footer';
+import Parallax1 from '../HomeDefault/Parallax';
  
 class Home extends React.Component {
     render(){
@@ -37,10 +38,13 @@ class Home extends React.Component {
                 <SeperatedBar />
                 {/* Feedback Area 
                 <Testimonials /> */}
+                <Parallax1 />
                 {/* Partner Area 
                 <PartnerLogo /> */}
+                <SeperatedBar />
                 {/* Team Area 
                 <Team /> */}
+                <Facebook style={{width: "100%", height: "100%"}} />
                 {/* Subscribe Area 
                 <Newsletter /> */}
                 {/* Blog Area 

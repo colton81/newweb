@@ -5,7 +5,9 @@ import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 
 import BannerVid from '../../assets/images/banner1.mp4'
 import './Typed.css';
-import Typewriter from 'typewriter-effect';
+import Typewriter1 from "../Common/typewritter";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 
 class Banner extends React.Component {
@@ -66,23 +68,23 @@ class Banner extends React.Component {
                   <br />
                   Design
                 </h1>
+                <h3>
+                <Typewriter1 heading={'We Are Your Experts In'}
+    dataText={[  
+      'Filter Housings      ', 
+      'Custom Pressure Vessels     ',
+      'Process Skids     ',
+      'Swing Bolt Closures     ',
+      
+    ]}  />
+                </h3>
                 
-                
-                <h2> We Are Your Experts In </h2>
-                <Typewriter
-                
-                                                options={{
-                                                    strings: ['<strong style="color: red; font-weight: 400; font-size: 45px; line-height: 45px;" >Filter Housings.</strong>', '<strong style="color: red; font-weight: 800; font-size: 35px;" >Process Skids.</strong', '<strong style="color: red; font-weight: 800; font-size: 35px;" >Custom Pressure Vessels.</strong>', '<strong style="color: red; font-weight: 800; font-size: 35px;" >Custom ASME Designs.</strong>'],
-                                                    autoStart: true,
-                                                    loop: true,
-                                                    
-                                                }}
-                                                
-                                            />
                
-                <Link to="#" className="uk-button uk-button-default">
+               
+                <Link to="/contact" href="#contact" className="uk-button uk-button-default">
                   Request A Quote
                 </Link>
+                
                 
 
                 {/* Youtube Pop Up Player */}
